@@ -38,35 +38,44 @@ public class CCuenta {
         setSaldo(getSaldo() - cantidad);
     }
 
-	private String getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 
-	private void setNombre(String nombre) {
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-	private String getCuenta() {
+	public String getCuenta() {
 		return cuenta;
 	}
 
-	private void setCuenta(String cuenta) {
+	public void setCuenta(String cuenta) {
 		this.cuenta = cuenta;
 	}
 
-	private double getSaldo() {
+	public double getSaldo() {
 		return saldo;
 	}
 
-	private void setSaldo(double saldo) {
+	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
 
-	private double getTipoInterés() {
+	public double getTipoInterés() {
 		return tipoInterés;
 	}
 
-	private void setTipoInterés(double tipoInterés) {
+	public void setTipoInterés(double tipoInterés) {
 		this.tipoInterés = tipoInterés;
 	}
+	
+	public float getCantidad() {
+		return this.cantidad;
+	}
+	
+	public void setCantidad(float cantidad) {
+		this.cantidad = cantidad;
+	}
+	
 }
